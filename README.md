@@ -33,9 +33,9 @@ Principais Tabelas:
 
 SELECT 
 
-    IFNULL(cv.nome, 'Particular') AS convenio,
+ IFNULL(cv.nome, 'Particular') AS convenio,
 
-    COUNT(p.id) AS total_pacientes
+COUNT(p.id) AS total_pacientes
     
 FROM pacientes p
 
@@ -45,5 +45,23 @@ GROUP BY convenio;
 
 ### Resultado:
 <img width="554" height="529" alt="image" src="https://github.com/user-attachments/assets/b48400ed-1ff2-4e50-a175-abcee6efd6a4" />
+
+### 2. Faturamento por Médico
+
+SELECT 
+
+ m.nome AS medico,
+ 
+SUM(pg.valor) AS total_recebido
+    
+FROM medicos m
+
+LEFT JOIN consultas c ON m.id = c.medico_id
+
+LEFT JOIN pagamentos pg ON c.id = pg.consulta_id
+
+WHERE pg.status = 'pago'
+
+GROUP BY m.id;
 
 
