@@ -1,8 +1,8 @@
-Sistema de Gestão Clínica Médica - MedControl
+### Título Nível 3 Sistema de Gestão Clínica Médica - MedControl
 Nome e Tema do Projeto
 🏥 MedControl - Banco de dados para gestão integrada de clínicas médicas
 
-Descrição do Problema Modelado
+### Título Nível 3 Descrição do Problema Modelado
 Problemas resolvidos:
 
 📅 Agendamentos conflitantes de consultas
