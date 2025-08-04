@@ -13,6 +13,13 @@ Problemas resolvidos:
 
 🏥 Dificuldade em gerar relatórios por especialidade
 
-Explicação das Entidades e Relacionamentos
+### Explicação das Entidades e Relacionamentos
 Principais Tabelas:
+
+-pacientes-	Cadastro de pacientes	Pertence a 1 convênio
+
+-medicos-	Corpo clínico	Possui 1 especialidade
+
+-consultas-	Agenda médica	Relaciona paciente e médico
+
 <img width="766" height="571" alt="Captura de tela 2025-08-04 075022" src="https://github.com/user-attachments/assets/6cb21403-cc80-460f-ac6e-1cb21281e5c5" />
