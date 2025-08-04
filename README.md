@@ -32,10 +32,15 @@ Principais Tabelas:
 1. Pacientes por Convênio
 
 SELECT 
+
     IFNULL(cv.nome, 'Particular') AS convenio,
+
     COUNT(p.id) AS total_pacientes
+    
 FROM pacientes p
+
 LEFT JOIN convenios cv ON p.convenio_id = cv.id
+
 GROUP BY convenio;
 
 ### Resultado:
