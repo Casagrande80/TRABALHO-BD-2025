@@ -1,5 +1,5 @@
-### Sistema de Gestão Clínica Médica - MedControl
-Nome e Tema do Projeto
+### Sistema de Gestão Clínica Médica
+
 🏥 MedControl - Banco de dados para gestão integrada de clínicas médicas
 
 ### Descrição do Problema Modelado
