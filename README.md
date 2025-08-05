@@ -51,5 +51,5 @@ SELECT
 ### 📝 Licença
 MIT License © [Amanda Simão Casagrande]
 
-### Repositório: 
+### Repositório: https://github.com/Casagrande80/TRABALHO-BD-2025.git
 
