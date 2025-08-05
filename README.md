@@ -1,4 +1,4 @@
-### Sistema de Gestão Clínica Médica
+##### Sistema de Gestão Clínica Médica
 
 🏥 MedControl - Banco de dados para gestão integrada de clínicas médicas
 
