@@ -66,3 +66,6 @@ WHERE pg.status = 'pago'
 GROUP BY m.id;
 
 
+### 📝 Licença
+MIT License © [Amanda Simão Casagrande]
+
